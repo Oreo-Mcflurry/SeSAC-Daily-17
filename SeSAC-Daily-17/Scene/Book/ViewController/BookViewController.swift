@@ -52,7 +52,15 @@ extension BookViewController: UICollectionViewDelegate, UICollectionViewDataSour
 		cell.descriptionLabel.text = datas?.documents![indexPath.item].contents
 		return cell
 	}
-	
+
+	func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+		let vc = storyboard?.instantiateViewController(identifier: WebBookViewController.identifier) as! WebBookViewController
+
+		vc.url = (datas?.documents![indexPath.row].url)!
+
+		navigationController?.pushViewController(vc, animated: true)
+	}
+
 	func registerCell() {
 		collectionView.register(UINib(nibName: BookCollectionViewCell.identifier, bundle: nil), forCellWithReuseIdentifier: BookCollectionViewCell.identifier)
 	}

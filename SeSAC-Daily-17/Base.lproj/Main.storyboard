@@ -63,11 +63,11 @@
             </objects>
             <point key="canvasLocation" x="2076" y="-479"/>
         </scene>
-        <!--Item-->
+        <!--Book-->
         <scene sceneID="4pM-Ns-FO4">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tjM-Co-4QR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="7y8-sP-4b4"/>
+                    <tabBarItem key="tabBarItem" title="Book" image="book" catalog="system" id="7y8-sP-4b4"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XAW-qC-xVV">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -85,5 +85,6 @@
     </scenes>
     <resources>
         <image name="bird.fill" catalog="system" width="126" height="128"/>
+        <image name="book" catalog="system" width="128" height="99"/>
     </resources>
 </document>

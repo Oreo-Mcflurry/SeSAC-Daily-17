@@ -56,6 +56,40 @@
             </objects>
             <point key="canvasLocation" x="16" y="-34"/>
         </scene>
+        <!--Web Book View Controller-->
+        <scene sceneID="5RF-FZ-7dP">
+            <objects>
+                <viewController storyboardIdentifier="WebBookViewController" id="boY-uX-KGW" customClass="WebBookViewController" customModule="SeSAC_Daily_17" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HHq-5W-0mv">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="va5-eQ-6LD">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vzo-Xd-n4l"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vzo-Xd-n4l" firstAttribute="bottom" secondItem="va5-eQ-6LD" secondAttribute="bottom" id="3Rk-U8-jB9"/>
+                            <constraint firstItem="va5-eQ-6LD" firstAttribute="top" secondItem="vzo-Xd-n4l" secondAttribute="top" id="Bjp-QF-cVT"/>
+                            <constraint firstItem="va5-eQ-6LD" firstAttribute="leading" secondItem="vzo-Xd-n4l" secondAttribute="leading" id="daf-nA-OaF"/>
+                            <constraint firstItem="vzo-Xd-n4l" firstAttribute="trailing" secondItem="va5-eQ-6LD" secondAttribute="trailing" id="t2Y-45-sCA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="va5-eQ-6LD" id="uyz-z7-IFc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2i4-U7-YwO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="941" y="-35"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">

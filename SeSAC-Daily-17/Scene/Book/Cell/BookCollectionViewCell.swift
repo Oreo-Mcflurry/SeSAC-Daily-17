@@ -15,7 +15,7 @@ class BookCollectionViewCell: UICollectionViewCell {
 	override func awakeFromNib() {
 		super.awakeFromNib()
 		bookImage.contentMode = .scaleAspectFill
-		descriptionLabel.numberOfLines = 0
+		descriptionLabel.numberOfLines = 3
 	}
 
 }

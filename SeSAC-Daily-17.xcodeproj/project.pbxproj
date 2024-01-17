@@ -9,21 +9,38 @@
 /* Begin PBXBuildFile section */
 		0BCF81332B578E3E001F4E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF81322B578E3E001F4E57 /* AppDelegate.swift */; };
 		0BCF81352B578E3E001F4E57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF81342B578E3E001F4E57 /* SceneDelegate.swift */; };
-		0BCF81372B578E3E001F4E57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF81362B578E3E001F4E57 /* ViewController.swift */; };
 		0BCF813A2B578E3E001F4E57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCF81382B578E3E001F4E57 /* Main.storyboard */; };
 		0BCF813C2B578E3F001F4E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BCF813B2B578E3F001F4E57 /* Assets.xcassets */; };
 		0BCF813F2B578E3F001F4E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCF813D2B578E3F001F4E57 /* LaunchScreen.storyboard */; };
+		0BCF81472B578E54001F4E57 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0BCF81462B578E54001F4E57 /* .gitignore */; };
+		0BCF814A2B578ED1001F4E57 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF81492B578ED1001F4E57 /* APIKeys.swift */; };
+		0BCF814C2B578EDD001F4E57 /* PublicAPIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF814B2B578EDD001F4E57 /* PublicAPIKeys.swift */; };
+		0BCF81522B57903B001F4E57 /* PapagoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF81512B57903B001F4E57 /* PapagoViewController.swift */; };
+		0BCF81542B57904E001F4E57 /* PapagoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCF81532B57904E001F4E57 /* PapagoViewController.storyboard */; };
+		0BCF81572B57906D001F4E57 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF81562B57906D001F4E57 /* UIViewController+Extension.swift */; };
+		0BCF815A2B5794E0001F4E57 /* LanguageCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF81592B5794E0001F4E57 /* LanguageCode.swift */; };
+		0BCF815F2B5798DC001F4E57 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 0BCF815E2B5798DC001F4E57 /* Alamofire */; };
+		0BCF81612B579E49001F4E57 /* PapagoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF81602B579E49001F4E57 /* PapagoModel.swift */; };
+		0BCF81652B57A12C001F4E57 /* SelectLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF81642B57A12C001F4E57 /* SelectLanguageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BCF812F2B578E3E001F4E57 /* SeSAC-Daily-17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeSAC-Daily-17.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCF81322B578E3E001F4E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BCF81342B578E3E001F4E57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0BCF81362B578E3E001F4E57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0BCF81392B578E3E001F4E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0BCF813B2B578E3F001F4E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BCF813E2B578E3F001F4E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BCF81402B578E3F001F4E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BCF81462B578E54001F4E57 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		0BCF81492B578ED1001F4E57 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		0BCF814B2B578EDD001F4E57 /* PublicAPIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicAPIKeys.swift; sourceTree = "<group>"; };
+		0BCF81512B57903B001F4E57 /* PapagoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoViewController.swift; sourceTree = "<group>"; };
+		0BCF81532B57904E001F4E57 /* PapagoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PapagoViewController.storyboard; sourceTree = "<group>"; };
+		0BCF81562B57906D001F4E57 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0BCF81592B5794E0001F4E57 /* LanguageCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCode.swift; sourceTree = "<group>"; };
+		0BCF81602B579E49001F4E57 /* PapagoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PapagoModel.swift; sourceTree = "<group>"; };
+		0BCF81642B57A12C001F4E57 /* SelectLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLanguageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BCF815F2B5798DC001F4E57 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +58,7 @@
 		0BCF81262B578E3E001F4E57 = {
 			isa = PBXGroup;
 			children = (
+				0BCF81462B578E54001F4E57 /* .gitignore */,
 				0BCF81312B578E3E001F4E57 /* SeSAC-Daily-17 */,
 				0BCF81302B578E3E001F4E57 /* Products */,
 			);
@@ -56,15 +75,78 @@
 		0BCF81312B578E3E001F4E57 /* SeSAC-Daily-17 */ = {
 			isa = PBXGroup;
 			children = (
+				0BCF81552B57905D001F4E57 /* Extension */,
+				0BCF814D2B578FE7001F4E57 /* Scene */,
+				0BCF81482B578EC3001F4E57 /* APIKeys */,
 				0BCF81322B578E3E001F4E57 /* AppDelegate.swift */,
 				0BCF81342B578E3E001F4E57 /* SceneDelegate.swift */,
-				0BCF81362B578E3E001F4E57 /* ViewController.swift */,
 				0BCF81382B578E3E001F4E57 /* Main.storyboard */,
 				0BCF813B2B578E3F001F4E57 /* Assets.xcassets */,
 				0BCF813D2B578E3F001F4E57 /* LaunchScreen.storyboard */,
 				0BCF81402B578E3F001F4E57 /* Info.plist */,
 			);
 			path = "SeSAC-Daily-17";
+			sourceTree = "<group>";
+		};
+		0BCF81482B578EC3001F4E57 /* APIKeys */ = {
+			isa = PBXGroup;
+			children = (
+				0BCF81492B578ED1001F4E57 /* APIKeys.swift */,
+				0BCF814B2B578EDD001F4E57 /* PublicAPIKeys.swift */,
+			);
+			path = APIKeys;
+			sourceTree = "<group>";
+		};
+		0BCF814D2B578FE7001F4E57 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				0BCF814E2B578FF5001F4E57 /* Papago */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		0BCF814E2B578FF5001F4E57 /* Papago */ = {
+			isa = PBXGroup;
+			children = (
+				0BCF81582B5794C5001F4E57 /* Model */,
+				0BCF81502B579004001F4E57 /* ViewController */,
+				0BCF814F2B578FFE001F4E57 /* View */,
+			);
+			path = Papago;
+			sourceTree = "<group>";
+		};
+		0BCF814F2B578FFE001F4E57 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0BCF81532B57904E001F4E57 /* PapagoViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0BCF81502B579004001F4E57 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0BCF81512B57903B001F4E57 /* PapagoViewController.swift */,
+				0BCF81642B57A12C001F4E57 /* SelectLanguageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0BCF81552B57905D001F4E57 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0BCF81562B57906D001F4E57 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0BCF81582B5794C5001F4E57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0BCF81592B5794E0001F4E57 /* LanguageCode.swift */,
+				0BCF81602B579E49001F4E57 /* PapagoModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +165,9 @@
 			dependencies = (
 			);
 			name = "SeSAC-Daily-17";
+			packageProductDependencies = (
+				0BCF815E2B5798DC001F4E57 /* Alamofire */,
+			);
 			productName = "SeSAC-Daily-17";
 			productReference = 0BCF812F2B578E3E001F4E57 /* SeSAC-Daily-17.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +196,9 @@
 				Base,
 			);
 			mainGroup = 0BCF81262B578E3E001F4E57;
+			packageReferences = (
+				0BCF815D2B5798DC001F4E57 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 0BCF81302B578E3E001F4E57 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +213,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BCF81542B57904E001F4E57 /* PapagoViewController.storyboard in Resources */,
+				0BCF81472B578E54001F4E57 /* .gitignore in Resources */,
 				0BCF813F2B578E3F001F4E57 /* LaunchScreen.storyboard in Resources */,
 				0BCF813C2B578E3F001F4E57 /* Assets.xcassets in Resources */,
 				0BCF813A2B578E3E001F4E57 /* Main.storyboard in Resources */,
@@ -138,9 +228,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCF81372B578E3E001F4E57 /* ViewController.swift in Sources */,
+				0BCF81572B57906D001F4E57 /* UIViewController+Extension.swift in Sources */,
 				0BCF81332B578E3E001F4E57 /* AppDelegate.swift in Sources */,
+				0BCF814A2B578ED1001F4E57 /* APIKeys.swift in Sources */,
+				0BCF81522B57903B001F4E57 /* PapagoViewController.swift in Sources */,
+				0BCF815A2B5794E0001F4E57 /* LanguageCode.swift in Sources */,
+				0BCF81612B579E49001F4E57 /* PapagoModel.swift in Sources */,
+				0BCF81652B57A12C001F4E57 /* SelectLanguageViewController.swift in Sources */,
 				0BCF81352B578E3E001F4E57 /* SceneDelegate.swift in Sources */,
+				0BCF814C2B578EDD001F4E57 /* PublicAPIKeys.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +459,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0BCF815D2B5798DC001F4E57 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0BCF815E2B5798DC001F4E57 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0BCF815D2B5798DC001F4E57 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0BCF81272B578E3E001F4E57 /* Project object */;
 }

@@ -21,12 +21,12 @@ class BookViewController: UIViewController {
 		setCollectionViewDelegate()
 
 		let layout = UICollectionViewFlowLayout()
-		let padding = 10
+		let padding: CGFloat = 10
 
-		layout.itemSize = CGSize(width: (Int(UIScreen.main.bounds.width)-padding*3)/2, height: (Int(UIScreen.main.bounds.width)-padding*3))
-		layout.sectionInset = UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
-		layout.minimumLineSpacing = 10
-		layout.minimumInteritemSpacing = 10
+		layout.itemSize = CGSize(width: (UIScreen.main.bounds.width-padding*3)/2, height: (UIScreen.main.bounds.width-padding*3))
+		layout.sectionInset = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
+		layout.minimumLineSpacing = padding
+		layout.minimumInteritemSpacing = padding
 		collectionView.collectionViewLayout = layout
 	}
 }

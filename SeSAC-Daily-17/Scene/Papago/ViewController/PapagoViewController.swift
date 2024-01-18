@@ -105,7 +105,7 @@ extension PapagoViewController {
 	@objc func navigateSelectLangView(sender: UIButton) {
 		let vc = storyboard?.instantiateViewController(identifier: SelectLanguageViewController.identifier) as! SelectLanguageViewController
 		vc.senderTag = sender.tag
-		vc.selectLang = self.selectLang
+		vc.selectLang = sender.tag == 0 ? self.selectLang.inputLang : self.selectLang.outputLang
 		vc.complitionHandeler = { item in
 			if sender.tag == 0 {
 				self.selectLang.inputLang = item
